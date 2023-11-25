@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black; 
+    font-family: "Fira Sans", sans-serif;
+    background-image: url(8.webp);
+    background-repeat: no-repeat; 
+    background-color: aqua;
+    background-size: cover;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 6%;
+    color: #afff;
+    background-color: rgb(152, 152, 189);
+}
+nav .head{
+    font-size: 30px;
+    font-weight:700;
+    color:white; 
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+nav ul li a{
+    font-size: 16px;
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color:black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    margin: 2% 4%;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+    margin: 10%;
+}
+.half{
+    margin-top: 10%;
+    color:white;
+    max-width: 610px;
+}
+.half h1{
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
